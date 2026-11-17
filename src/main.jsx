@@ -47,9 +47,9 @@ const applications = [
 ]
 
 const portfolioSamples = [
-  [ASSET_BASE + 'portfolio-04-jl-collective-transfer.png', 'لیبل ترنسفر', 'jl-transfer'],
-  [ASSET_BASE + 'portfolio-02-lumina-candle.png', 'شمع و ظروف', 'lumina-candle'],
-  [ASSET_BASE + 'portfolio-05-skincare-transfer.png', 'لوازم آرایشی', 'skincare-transfer'],
+  [ASSET_BASE + 'portfolio-04-jl-collective-transfer.webp', 'لیبل ترنسفر', 'jl-transfer'],
+  [ASSET_BASE + 'portfolio-02-lumina-candle.webp', 'شمع و ظروف', 'lumina-candle'],
+  [ASSET_BASE + 'portfolio-05-skincare-transfer.webp', 'لوازم آرایشی', 'skincare-transfer'],
 ]
 
 function WaveEdge({ fill, variant = 'one' }) {
@@ -129,7 +129,7 @@ function Hero() {
 
         <div className="hero-art hero-device-art">
           <img
-            src={ASSET_BASE + "mana-hero-printer-final.png"}
+            src={ASSET_BASE + "mana-hero-printer-final.webp"}
             alt="دستگاه چاپ UV DTF مانا"
           />
         </div>
